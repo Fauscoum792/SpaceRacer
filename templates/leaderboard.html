@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block main_content %}
+
+<h1>LeaderBoard</h1>
+<table>
+    <thead>
+        <tr>
+            <th>User id</th>
+            <th>Map</th>
+            <th>Lap Time</th>
+        </tr>
+    </thead>
+    {% for leader in lBoard %}
+    <tr>
+        <td>{{ leader["user_id"] }}</td>
+        <td>{{ leader["map"] }}</td>
+        <td>{{ leader["lap_time"] }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

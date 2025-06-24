@@ -1,0 +1,5 @@
+https://www.aseprite.org/ //sprite collison
+https://pixijs.io/examples/#/masks/texture.js // sprite masking for collison detection
+ https://www.playfuljs.com/per-pixel-collision-detection/
+ https://gamedevelopment.tutsplus.com/tutorials/collision-detection-for-beginners--gamedev-299 // collision technique
+https://www.piskelapp.com/ // map creation

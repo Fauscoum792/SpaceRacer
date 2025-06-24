@@ -1,0 +1,116 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    /* Disable scrolling */
+}
+
+canvas {
+    margin: 2em auto;
+    background-color: white;
+    display: block;
+    margin-top: 0;
+
+}
+
+/* Header */
+header {
+    height: 7vh;
+    background-color: #222;
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.header-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.user-info {
+    text-align: right;
+    font-size: 0.9rem;
+    display: flex;
+    /* Makes children align horizontally */
+    gap: 15px;
+    /* Adds space between elements */
+    align-items: center;
+    /* Optional: vertically aligns the items */
+}
+
+header a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    max-height: 80vh;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Buttons */
+/* Style links to look like buttons */
+main p {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+main p a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    padding: 0 12px;
+
+}
+
+p a {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #031d39;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #0056b3;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+p a:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+p a:active {
+    background-color: #004494;
+    transform: translateY(1px);
+}
